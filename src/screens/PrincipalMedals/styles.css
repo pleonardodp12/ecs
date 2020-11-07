@@ -1,0 +1,57 @@
+#pagina-principal-medals {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
+}
+
+#pagina-principal-medals h1 {
+  color: white;
+}
+
+#pagina-principal-medals h1:not(:nth-child(1)){
+  margin-top: 40px;
+} 
+
+.medals__container {
+  width: 100%;
+  height: auto;
+  padding: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 0px 1px 4px rgba(157, 19, 211, 0.5);
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+.medal {
+  width: 140px;
+  height: 140px;
+  font: 700 1.6rem Archivo;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 24px 0  40px 0;
+}
+
+.medal p {
+  color: var(--color-green);
+}
+
+.medal img {
+  width: 80%;
+  margin: 16px 0;
+}
+
+.medal button {
+  width: 80%;
+  color: black;
+  margin: 4px 0 8px 0;
+}

@@ -1,0 +1,65 @@
+:root {
+  font-size: 60%;
+
+  --color-background: #1f1f1f;
+  --color-purple: #492080;
+  --color-purple-border: #6d039e;
+  --color-card: #121212;
+  --color-green: #16b839;
+  --color-text-grey: #555561;
+  --color-text-link: #455A64;
+  --color-item-menu: #D3D3D3;
+  --color-item-menu-selected: #37474F;
+  --color-text-h1: #F9FEFF;
+  
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background);
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Poppins;
+  color: var(--color-text-base);
+  outline: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  color: var(--color-text-h1);
+  font-family: Poppins;
+}
+
+button,a{
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}

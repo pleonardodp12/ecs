@@ -1,0 +1,77 @@
+#pagina-principal-missao{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#pagina-principal-missao h1 {
+  color: white;
+  margin: 24px auto;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.missao {
+  width: 60%;
+  min-width: 400px;
+  height: 160px;
+  background-color: #2e2e2e;
+  box-shadow: 0px 1px 4px rgba(157, 19, 211, 0.5);
+  margin: 16px auto;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  border-radius: 8px;
+}
+
+.missao h5,
+.missao h3 {
+  font: 700 Poppins;
+}
+
+.missao h5 {
+  font-size: 2rem;
+}
+
+.missao h3 {
+  font-size: 3rem;
+  color: var(--color-green)
+}
+
+.missao span {
+  font-size: 1.4rem;
+  color: #f6f6f6;
+}
+
+.init {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.init .button_play {
+  padding: 8px 20px;
+  background-color: var(--color-purple);
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font: 700 1.8rem Archivo;
+  transition: .3s ease-in-out;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.init .button_play:hover {
+  color: var(--color-purple);
+  background-color: whitesmoke;
+}

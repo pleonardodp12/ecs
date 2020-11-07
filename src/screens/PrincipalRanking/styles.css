@@ -1,0 +1,74 @@
+#pagina-principal-ranking {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#pagina-principal-ranking h1 {
+  color: white;
+  margin: 24px auto;
+}
+
+.pagina-principal-ranking-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.pagina-principal-ranking-content__card {
+  display: flex;
+  width: 70%;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+  box-shadow: 0px 1px 4px rgba(157, 19, 211, 0.5);
+}
+
+.pagina-principal-ranking-content__card:nth-child(1) {
+  background: #ffd700;
+}
+
+.pagina-principal-ranking-content__card:nth-child(2){
+  background: #c0c0c0;
+}
+
+.pagina-principal-ranking-content__card:nth-child(3){
+  background:#cd7f32;
+}
+
+.pagina-principal-ranking-content__card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 100%;
+  font: 700 8rem Archivo;
+  color: var(--color-purple)
+}
+
+.ranking {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-color:  #161616;
+}
+
+.ranking h4 {
+  font: 700 2rem Poppins;
+  color: var(--color-text-h1);
+}
+
+.ranking hgroup h5 {
+  font: 700 1.6rem Poppins;
+  color: var(--color-green)
+}

@@ -1,0 +1,53 @@
+#user-content-profile{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: var(--color-card);
+}
+
+#user-content-profile img{
+  border-radius: 50%;
+  width: 100px;
+}
+
+#user-content-profile h5{
+  font: 700 2rem Archivo;
+  color: var(--color-text-h1);
+}
+
+#user-content-profile .tags-card{
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+#user-content-profile .tags-card .tags{
+  width: 80px;
+  height: 30px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#user-content-profile .tags-card .points {
+  background-color: var(--color-text-h1);
+}
+
+#user-content-profile .tags-card .nivel {
+  background-color: var(--color-purple);
+  color: white;
+}
+
+#user-content-profile .button-back {
+  color:white;
+  position: absolute;
+  display: inline-block;
+  left: 8px;
+  top: 8px;
+  cursor: pointer;
+}
