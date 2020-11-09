@@ -118,7 +118,7 @@ const LoginScreen = () => {
     { modalSignUp && <div className="signup__container">
       <span className="close__button" onClick={() => closeReset()}>x</span>
       <h1> Cadastro</h1>
-      <h4>Agora vai essa porra</h4>
+      <h4>Cadastro simples e rápido</h4>
       <form>
         <input
           placeholder="URL foto"

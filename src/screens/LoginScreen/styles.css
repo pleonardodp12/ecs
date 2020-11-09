@@ -71,6 +71,9 @@
   font: 700 1.6rem Archivo;
   color: whitesmoke;
   transition: .3s ease all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .login__container .button__login {
